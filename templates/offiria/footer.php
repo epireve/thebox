@@ -13,7 +13,7 @@ defined('_JEXEC') or die;
 	
 	<div id="oFooter-inner" class="container">
 		<div id="oFooter-left" class="span6">
-			<span>Copyright &copy; 2007 - 2012 <?php echo JText::_('CUSTOM_COMPANY_SITE');?>. Powered by <?php echo JText::_('CUSTOM_SITE_NAME');?></span>
+			<span>Copyright &copy; 2013 BOX<!--?php echo JText::_('CUSTOM_COMPANY_SITE');?-->. Powered by Joomla!<!--?php echo JText::_('CUSTOM_SITE_NAME');?--></span>
 		</div>
 		
 		<div id="oFooter-right" class="span4">

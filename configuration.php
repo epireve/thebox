@@ -29,11 +29,11 @@ class JConfig {
 	public $offset_user = 'UTC';
 	public $mailer = 'mail';
 	public $mailfrom = 'i@firdaus.my';
-	public $fromname = 'Offiria';
+	public $fromname = 'King';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
-	public $smtpuser = '';
-	public $smtppass = '';
+	public $smtpuser = 'epireve';
+	public $smtppass = 'epi5519';
 	public $smtphost = 'localhost';
 	public $smtpsecure = 'none';
 	public $smtpport = '25';
@@ -71,4 +71,8 @@ class JConfig {
 	public $captcha = '0';
 	public $style = 'grey';
 	public $postfix_domain = '.offiria.com';
+	public $crocodocs = '';
+	public $scribd_api = '';
+	public $scribd_secret = '';
+	public $diffbot = '';
 }
