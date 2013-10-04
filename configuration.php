@@ -9,7 +9,7 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysql';
-	public $host = 'localhost';
+	public $host = 'tunnel.pagodabox.com:3306';
 	public $user = 'angle';
 	public $password = 'XWKJmjG9';
 	public $db = 'offiriav2';
@@ -70,7 +70,7 @@ class JConfig {
 	public $offline_image = '';
 	public $captcha = '0';
 	public $style = 'grey';
-	public $postfix_domain = '.offiria.com';
+	public $postfix_domain = '';
 	public $crocodocs = '';
 	public $scribd_api = '';
 	public $scribd_secret = '';
