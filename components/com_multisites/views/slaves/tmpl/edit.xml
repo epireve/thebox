@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="create a slave sites">
+		<message>
+			<![CDATA[Creation of a slave from the front-end]]>
+		</message>
+	</layout>
+	<state>
+		<name>Create a slave sites Layout</name>
+		<description>This layout allow to directly create a slave websites from the front-end</description>
+		<params>
+			<param name="groupname"      type="text" size="25" default="" label="Filter on group name" description="When not empty, it allows to only see template that correspond to this group name" />
+			<param name="title"          type="text" size="60" default="" label="Title" description="By default, the title is 'Websites' and defined in a language file. When present, it replaces the default value." />
+			<param name="show_del_btn" type="radio" default="1" label="Delete Button" description="Show/Hide the delete button.">
+				<option value="1">Show</option>
+				<option value="0">Hide</option>
+			</param>
+			<param name="eshop_events" type="radio" default="0" label="Billable websites" description="Enable/Disable the call to the Multisites Plugins or call to the scripts defined hereafter to communicate with your eShop component (ie VirtueMart, ...). When enabled, it is required to have website quota available (see Multisites setting).">
+				<option value="1">Enable</option>
+				<option value="0">Disable</option>
+			</param>
+			<param name="redirect_onSave" type="text" size="60" default="" label="Redirect URL" description="URL where you want redirect the user once the action is performed. When empty, you redirect the user to the list of slave site. Otherwise, put the URL that must be used when the slave site is created or edited." />
+         <param name="payment_script" type="textarea" default="" rows="5" cols="35" 
+                label="Payment script"
+                description="When present, it allows to prepare the payment of the slave site. You can give here either a constant or PHP code that must be evaluate before processing the website creation. It is called just after the Multisites Plugins to give a second change to return a payment reference."   />
+         <param name="onDeploy_OK"    type="textarea" default="" rows="5" cols="35"
+                label="On deploy success"
+                description="Factulative PHP script to execute when the website is deployed with success. It is called just before the possible Multisites Plugins." />
+         <param name="onDeploy_Err"   type="textarea" default="" rows="5" cols="35"
+                label="On deploy error"
+                description="Factulative PHP script to execute when the website deployment failed. It is called just before the possible Multisites Plugins." />
+		</params>
+	</state>
+</metadata>

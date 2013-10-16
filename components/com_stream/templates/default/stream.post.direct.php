@@ -74,6 +74,15 @@
 										<!-- or put a simple form for upload here -->
 									</noscript>
 								</div>
+								<input type="dropbox-chooser" name="selected-file" id="db-chooser"/>
+
+								<script type="text/javascript">
+								    // add an event listener to a Chooser button
+								    document.getElementById("db-chooser").addEventListener("DbxChooserSuccess",
+								        function(e) {
+								            alert("Here's the chosen file: " + e.files[0].link)
+								        }, false);
+								</script>
 							</li>
 							<li class="stream-post-link-add"><a href="#" onclick="return S.uploader.selectFile('direct-file-uploader');"><?php echo JText::_('COM_STREAM_LABEL_UPLOAD');?>
 							</a>
