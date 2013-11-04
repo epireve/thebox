@@ -1,0 +1,54 @@
+#cbdrpboxchooserwrap{
+    border: 1px solid #ddd; padding:10px; display: block; clear: both;
+    margin:5px 0;
+}
+
+.dropbox-chooser{
+    float: left; display: inline-block;
+}
+
+#codeboxrdroboxchoosernotice{
+	float: right; display: inline-block; font-weight: bold;
+}
+
+#dropboxinputwrap{     
+    clear: both;
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+ 
+#dropboxinputwrap .dropboxinputsinglewrap{
+	margin:5px; float: left; display: inline-block; border: 1px solid #DFDFDF; padding: 5px;
+}
+#dropboxinputwrap .dropboxinputsinglewrap img{
+	float: left; display: inline-block; padding: 2px; border: 1px solid #ccc; margin: 0 0 0 5px;
+	height: 200px; width: 200px; cursor: pointer;
+}
+#dropboxinputwrap .dropboxinputsinglewrap img.dbfiletype{
+    border: 0 none;
+    display: inline-block;
+    float: left;
+    height: 32px;
+    margin: 0 5px 0 0;
+    padding: 0;
+    width: 32px;
+}
+
+#dropboxinputwrap .dropboxinput{
+    float: left; display: inline-block;  padding: 5px; margin: 0; clear: both; width: 211px;
+}
+
+#dropboxinputwrap .dropboxinput a{	
+	font-size: 14px; line-height: 16px; float: left; display: inline-block; clear: both;
+}
+
+.cbclear{
+    clear: both;
+}
+
+/*
+font-size:12px; line-height:16px; margin-top: 0;
+*/

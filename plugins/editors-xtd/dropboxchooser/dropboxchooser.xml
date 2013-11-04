@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="editors-xtd" method="upgrade">
+	<name>Button- Dropbox Chooser</name>
+	<author>Codeboxr</author>
+	<creationDate>16.05.2013</creationDate>
+	<copyright>Copyright (C) 20011- 2013 Open Source Matters. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>info@codeboxr.com</authorEmail>
+	<authorUrl>http://codeboxr.com</authorUrl>
+	<version>1.1</version>
+	<description>Add dropbox chooser button under editor</description>
+	<files>
+		<filename plugin="dropboxchooser">dropboxchooser.php</filename>
+		<filename>index.html</filename>
+		<folder>dropboxchooser</folder>
+	</files>	
+        <config>
+            <fields name="params" addfieldpath="/plugins/editors-xtd/dropboxchooser/dropboxchooser/fields">                    
+                <fieldset name="basic" label="Basic Settings">                
+                     <field name="cbnote" type="cbxmlnote" link="https://www.dropbox.com/developers/apps/create" default="blue||Create App and Collect App Key" label="Help" />
+                     <field name="key" type="text" default="" label="App Key"  description="App Key for your dropbox chooser app, please see  extension documentation." />                    
+                </fieldset>
+           </fields>  
+       </config>
+</extension>
