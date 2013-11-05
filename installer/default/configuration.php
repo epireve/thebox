@@ -2,7 +2,7 @@
 class JConfig {
 	public $offline = '0';
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
-	public $sitename = 'TheGang';
+	public $sitename = 'Dummy-Totally';
 	public $editor = 'tinymce';
 	public $list_limit = '10';
 	public $access = '1';
@@ -12,7 +12,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'epireve';
 	public $password = 'epi5519';
-	public $db = 'offiriav2';
+	public $db = 'thebox_dummy';
 	public $dbprefix = 'off_';
 	public $live_site = '';
 	public $secret = 'XQJR8eWrZvLKCisl';
@@ -48,8 +48,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/Applications/MAMP/dev.local/Offiriav2/log';
-	public $tmp_path = '/Applications/MAMP/dev.local/Offiriav2/tmp';
+	public $log_path = '/Applications/MAMP/dev.local/thebox/log';
+	public $tmp_path = '/Applications/MAMP/dev.local/thebox/tmp';
 	public $lifetime = '1000';
 	public $session_handler = 'database';
 	public $MetaRights = '';

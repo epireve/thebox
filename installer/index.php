@@ -84,7 +84,7 @@ if ($_GET) {
 	if ($canProceed && !$database->createDatabase($dbo, $db_name)) {
 		$link = '';
 		$link .= '<p>';
-		$link .= 'This is a fresh install of Offiria, <b>'. $db_name . '</b> database will be removed (this action is not reversible)<br />';
+		$link .= 'This is a fresh install of Projecker, <b>'. $db_name . '</b> database will be removed (this action is not reversible)<br />';
 
 		$query = "?$variables&remove_database=true";
 		$link .= '<a href="'.$query.'">Confirm</a>';
@@ -104,7 +104,7 @@ if ($_GET) {
 
 	if ($canProceed && !$database->populateDatabase($dbo, OFFIRIA_SQL_FILEPATH)) {
 		$canProceed = false;
-		$errorMessage = 'Failed to install Offiria';
+		$errorMessage = 'Failed to install Projecker';
 		// exit('Failed to install Offiria');
 	}
 
@@ -168,7 +168,7 @@ if ($_GET) {
 <link rel="stylesheet" href="assets/css/validationEngine.jquery.css" type="text/css"/>
 </head>
 
-<title>Offiria Installation</title>
+<title>Projecker Installation</title>
 
 <body>
 	
@@ -185,7 +185,7 @@ if ($_GET) {
 				<div class="row">
 					<div class="span10 header-section">
 						<div class="header-content">
-							<h1>Offiria Installation</h1>
+							<h1>Projecker Installation</h1>
 						</div>
 					</div>
 				</div>
@@ -230,12 +230,12 @@ if ($_GET) {
 								<div class="main-content">
 									<?php if ($isSuccessful && $cannotProceed): // already installed ?>
 									<p>
-										You have already installed Offiria. If you want to reinstall, remove <?php echo CONFIG_FILEPATH; ?>
+										You have already installed Projecker. If you want to reinstall, remove <?php echo CONFIG_FILEPATH; ?>
 									</p>
 									<?php elseif (!$isSuccessful && !$cannotProceed): // the initial page to load ?>
 									<h2>Welcome.</h2>
 									<p>
-										Kindly fill the necessary information to proceed with Offiria installation. <br />
+										Kindly fill the necessary information to proceed with Projecker installation. <br />
 									</p>
 									<?php elseif ($cannotProceed) : // if theres a permission issue with files ?>
 									<div class="alert alert-error">
@@ -263,11 +263,11 @@ if ($_GET) {
 									<?php else: // if successfully complete the installation ?>
 									<div id="system-message-container">
 										<div class="alert alert-success">
-											The Offiria installation is <b>complete</b>. It is highly recommended that you revert the permissions of <b><?php echo
+											The Projecker installation is <b>complete</b>. It is highly recommended that you revert the permissions of <b><?php echo
 											INSTALLATION_DIR; ?></b> to default (<?php echo $_SESSION['default_permission']; ?>) or (0755).
 											<br />
 											<br />
-											<a href="../">Click here</a> to go to your new Offiria site.
+											<a href="../">Click here</a> to go to your new Projecker site.
 										</div>
 									</div>
 									<?php endif; ?>
@@ -337,7 +337,7 @@ if ($_GET) {
 							</div>
 							<div class="span9">
 								<div class="main-content">
-									<h2>Offiria Configuration.</h2>
+									<h2>Projecker Configuration.</h2>
 									<span class="title-desc">Please fill in the site configuration.</span>
 
 									<div class="theform">
@@ -407,7 +407,7 @@ if ($_GET) {
 											By creating an account, you agree with our <a href="https://offiria.com/terms-of-service/" target="_blank">Terms of Service</a> and <a href="https://offiria.com/privacy-policy/" target="_blank">Privacy Policy</a>.
 									</div> */ ?>
 									<div class="pull-right">
-										<input class="btn btn-info" type="submit" id="submit" value="Install Offiria">
+										<input class="btn btn-info" type="submit" id="submit" value="Install Projecker">
 										</div>
 										<div class="clear"></div>
 									</div>
