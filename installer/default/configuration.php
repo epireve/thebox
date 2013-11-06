@@ -70,5 +70,5 @@ class JConfig {
 	public $offline_image = '';
 	public $captcha = '0';
 	public $style = 'blue';
-	public $postfix_domain = '.offiria.com';
+	public $postfix_domain = '.projecker.com';
 }
