@@ -16,7 +16,7 @@
 	
 	<tr class="header" height="90px">
 		<td>
-			<div class="title"><img src="<?php echo JURI::base(); ?>/templates/<?php echo $currentTemplate;?>/images/projecker.png" /></div>
+			<div class="title"><img src="<?php echo JURI::base(); ?>/templates/<?php echo $currentTemplate;?>/images/email/projecker.png" /></div>
 		</td>
 		
 		<td style="text-align: right;">
