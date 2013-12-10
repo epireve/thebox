@@ -63,7 +63,7 @@ $this->direction = $doc->direction;
 	<div style="width:720px; height:460px; margin:0 auto; position:relative">
 	  <div style="position:absolute; top:70px; left:328px;"><img src="<?php echo $this->baseurl ?>/templates/<?php echo JText::_('CUSTOM_TEMPLATE');?>/images/sad-face.jpeg" width="300" height="300" /></div>
 	  <div style="position:absolute; top:148px; left:55px; width:300px">
-	    <p>It looks like you may have taken a wrong turn. Please go back or return to the <a href="https://www.offiria.com">home page</a></p>
+	    <p>It looks like you may have taken a wrong turn. Please go back or return to the <a href="https://www.projecker.com">home page</a></p>
 	  </div>
 	</div>
 </body>
