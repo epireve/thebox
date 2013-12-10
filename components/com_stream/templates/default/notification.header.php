@@ -17,7 +17,7 @@
 	<tr>
 	<td height="60" valign="middle" style="background:#f2f2f2;">
 
-	<a href="<?php echo JURI::base();?>"><img src="<?php echo JURI::base();?>components/com_stream/assets/images/logoblack.png" alt="logo" style="display:block;border:none;margin-left:10px;" width="154" height="50" /></a>
+	<a href="<?php echo JURI::base();?>"><img src="<?php echo JURI::base();?>components/com_stream/assets/images/projecker.png" alt="logo" style="display:block;border:none;margin-left:10px;" width="154" height="50" /></a>
 	</td>
 	</tr>
 </table> 
