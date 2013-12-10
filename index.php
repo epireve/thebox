@@ -5,6 +5,10 @@
  * @license		GNU General Public License version 2 or later; see LICENSE.txt
  */
 
+// Set new upload and post max size
+ini_set('upload_max_filesize', '10M');
+echo ini_get('upload_max_filesize'), ", " , ini_get('post_max_size')
+
 // Set flag that this is a parent file.
 define('_JEXEC', 1);
 define('DS', DIRECTORY_SEPARATOR);
