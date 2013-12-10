@@ -1,8 +1,7 @@
-<?php
-class JConfig {
+ass JConfig {
 	public $offline = '0';
 	public $offline_message = 'This site is down for maintenance.<br /> Please check back again soon.';
-	public $sitename = 'Dummy-Totally';
+	public $sitename = 'Projecker';
 	public $editor = 'tinymce';
 	public $list_limit = '10';
 	public $access = '1';
@@ -12,7 +11,7 @@ class JConfig {
 	public $host = 'localhost';
 	public $user = 'epireve';
 	public $password = 'epi5519';
-	public $db = 'thebox_dummy';
+	public $db = 'projecker';
 	public $dbprefix = 'off_';
 	public $live_site = '';
 	public $secret = 'XQJR8eWrZvLKCisl';
@@ -29,7 +28,7 @@ class JConfig {
 	public $offset_user = 'UTC';
 	public $mailer = 'mail';
 	public $mailfrom = 'i@firdaus.my';
-	public $fromname = 'Offiria';
+	public $fromname = 'Projecker';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
 	public $smtpuser = '';
@@ -48,8 +47,8 @@ class JConfig {
 	public $sef_suffix = '0';
 	public $unicodeslugs = '0';
 	public $feed_limit = '10';
-	public $log_path = '/Applications/MAMP/dev.local/thebox/log';
-	public $tmp_path = '/Applications/MAMP/dev.local/thebox/tmp';
+	public $log_path = '/var/www/log';
+	public $tmp_path = '/var/www/tmp';
 	public $lifetime = '1000';
 	public $session_handler = 'database';
 	public $MetaRights = '';
@@ -71,4 +70,5 @@ class JConfig {
 	public $captcha = '0';
 	public $style = 'blue';
 	public $postfix_domain = '.projecker.com';
+	public $logo = 'images/0653c4e151c016c46ddc15a0.png';
 }
